@@ -1,0 +1,820 @@
+Prefix(:=<http://www.semanticweb.org/ася/ontologies/2017/4/untitled-ontology-6#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.semanticweb.org/ася/ontologies/2017/4/untitled-ontology-6>
+
+Declaration(Class(:BIOS))
+Declaration(Class(:CD-ROM))
+Declaration(Class(:CMOSRAM))
+Declaration(Class(:DRAM))
+Declaration(Class(:DVD))
+Declaration(Class(:DataBus))
+Declaration(Class(:FlashMemory))
+Declaration(Class(:HD))
+Declaration(Class(:HDD))
+Declaration(Class(:InformationTransformer))
+Declaration(Class(:LCD-monitor))
+Declaration(Class(:LED-monitor))
+Declaration(Class(:Memory-compact-disk))
+Declaration(Class(:MemoryDevices))
+Declaration(Class(:OperationSystem))
+Declaration(Class(:PCI-bus))
+Declaration(Class(:SRAM))
+Declaration(Class(:SSD))
+Declaration(Class(:SoundSynthesizer))
+Declaration(Class(:Strimer))
+Declaration(Class(:TV-tuner))
+Declaration(Class(:TelecommunicationOfCommunicationMeans))
+Declaration(Class(:USB-port))
+Declaration(Class(:VLB-bus))
+Declaration(Class(:VRAM))
+Declaration(Class(:addressRegister))
+Declaration(Class(:analog-digital))
+Declaration(Class(:audioadapter))
+Declaration(Class(:built-inBuffer))
+Declaration(Class(:busesOfExtensions))
+Declaration(Class(:cache))
+Declaration(Class(:chip))
+Declaration(Class(:codeAdressBus))
+Declaration(Class(:codeDataBus))
+Declaration(Class(:codeInstructionBus))
+Declaration(Class(:computer))
+Declaration(Class(:controlCircuit))
+Declaration(Class(:controlDevice))
+Declaration(Class(:controlDiagramBusAndPorts))
+Declaration(Class(:controller))
+Declaration(Class(:cooler))
+Declaration(Class(:dataInputDevice))
+Declaration(Class(:dataOutputDevice))
+Declaration(Class(:devicesOfSpeechInputOfInformationOutput))
+Declaration(Class(:digital-analog))
+Declaration(Class(:discHandler))
+Declaration(Class(:drivers))
+Declaration(Class(:drivesOnOpticalDisks))
+Declaration(Class(:electronicBoards))
+Declaration(Class(:electrostaticPlotter))
+Declaration(Class(:frameGrubber))
+Declaration(Class(:generalPurposeRegister))
+Declaration(Class(:graphicsAccelerator))
+Declaration(Class(:graphicsPad))
+Declaration(Class(:hardDrive))
+Declaration(Class(:instructionRegister))
+Declaration(Class(:interfaceBus))
+Declaration(Class(:jetPlotter))
+Declaration(Class(:jetPrinter))
+Declaration(Class(:joystick))
+Declaration(Class(:keypad))
+Declaration(Class(:laserPlotter))
+Declaration(Class(:laserPrinter))
+Declaration(Class(:lightPen))
+Declaration(Class(:localBus))
+Declaration(Class(:matrixPrinter))
+Declaration(Class(:microcontroller))
+Declaration(Class(:microphone))
+Declaration(Class(:monitor))
+Declaration(Class(:motherboard))
+Declaration(Class(:mouse))
+Declaration(Class(:multimediaMeans))
+Declaration(Class(:peripheralEquipment))
+Declaration(Class(:peripheralMemory))
+Declaration(Class(:plotter))
+Declaration(Class(:powerbus))
+Declaration(Class(:powersupplyunit))
+Declaration(Class(:printer))
+Declaration(Class(:processor))
+Declaration(Class(:randomAccessMemory))
+Declaration(Class(:randomAccessMemoryDIMM))
+Declaration(Class(:randomAccessMemorySO-DIMM))
+Declaration(Class(:rasterPlotter))
+Declaration(Class(:read-onlyMemory))
+Declaration(Class(:refrigerationSystem))
+Declaration(Class(:register))
+Declaration(Class(:registersOfMicroprocessor))
+Declaration(Class(:reprogrammableFixedMemory))
+Declaration(Class(:scaner))
+Declaration(Class(:specialMemory))
+Declaration(Class(:specialRegister))
+Declaration(Class(:specifyingDevices))
+Declaration(Class(:systemBus))
+Declaration(Class(:thermalPlotter))
+Declaration(Class(:toneSystem))
+Declaration(Class(:touchScreen))
+Declaration(Class(:vectorPlotter))
+Declaration(Class(:videoadapter))
+Declaration(Class(:videocard))
+Declaration(Class(:videomemory))
+Declaration(Class(:waterCooling))
+Declaration(Class(:winchester))
+Declaration(ObjectProperty(:hasComponent))
+Declaration(ObjectProperty(:hasRequiredComponent))
+Declaration(ObjectProperty(:interactsWith))
+Declaration(ObjectProperty(:isComponent))
+Declaration(ObjectProperty(:isPortFor))
+Declaration(ObjectProperty(:isRequiredComponent))
+Declaration(DataProperty(:скоростьПечати))
+Declaration(DataProperty(:цветной))
+Declaration(NamedIndividual(:AMD_A4-5300_OEM))
+Declaration(NamedIndividual(:AMD_A8-7650K_OEM))
+Declaration(NamedIndividual(:BrotherHL-1112R))
+Declaration(NamedIndividual(:Corsair_H45))
+Declaration(NamedIndividual(:Crown_CM-80))
+Declaration(NamedIndividual(:Deepcool_CAPTAIN_240EX))
+Declaration(NamedIndividual(:Deepcool_CAPTAIN_240EX_RGB))
+Declaration(NamedIndividual(:Deepcool_MAELSTROM_240T))
+Declaration(NamedIndividual(:HPColorLaserJetProM176nCF547A))
+Declaration(NamedIndividual(:HPLaserJetProM201n))
+Declaration(NamedIndividual(:Intel_Celeron_G3930_BOX))
+Declaration(NamedIndividual(:Intel_Celeron_G4900_BOX))
+Declaration(NamedIndividual(:Intel_Pentium_G4560_BOX))
+Declaration(NamedIndividual(:Intel_Pentium_Gold_G5500_OEM))
+Declaration(NamedIndividual(:Mac_OS))
+Declaration(NamedIndividual(:Microsoft_Windows_10))
+Declaration(NamedIndividual(:Microsoft_Windows_7))
+Declaration(NamedIndividual(:Microsoft_Windows_Vista))
+Declaration(NamedIndividual(:PantumP2207))
+Declaration(NamedIndividual(:Xilence_A200))
+Declaration(NamedIndividual(:Xilence_A250_PWM))
+Declaration(NamedIndividual(:Zalman_CNPS80F))
+Declaration(NamedIndividual(:Zalman_CNPS90F))
+Declaration(NamedIndividual(:_4ГБ))
+Declaration(NamedIndividual(<http://www.semanticweb.org/ася/ontologies/2017/4/untitled-ontology-6#Hipro350W[HPE-350W]>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/ася/ontologies/2017/4/untitled-ontology-6#SODIMM_AMD_Radeon_R5_Entertainment_Series[R534G1601S1S-UO/UGO]_4ГБ>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/ася/ontologies/2017/4/untitled-ontology-6#SODIMM_Goodram_[GR800S264L6/2G]_2ГБ>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/ася/ontologies/2017/4/untitled-ontology-6#STM300W[STM-30SFX]>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/ася/ontologies/2017/4/untitled-ontology-6#STM500W[STM-50SHB]>))
+
+############################
+#   Object Properties
+############################
+
+# Object Property: :hasComponent (:hasComponent)
+
+TransitiveObjectProperty(:hasComponent)
+
+# Object Property: :hasRequiredComponent (:hasRequiredComponent)
+
+AnnotationAssertion(rdfs:comment :hasRequiredComponent "имеет обязательный компонент")
+SubObjectPropertyOf(:hasRequiredComponent :hasComponent)
+
+# Object Property: :interactsWith (:interactsWith)
+
+AnnotationAssertion(rdfs:comment :interactsWith "Взаимодействие с")
+SymmetricObjectProperty(:interactsWith)
+TransitiveObjectProperty(:interactsWith)
+
+# Object Property: :isComponent (:isComponent)
+
+SubObjectPropertyOf(:isComponent owl:topObjectProperty)
+TransitiveObjectProperty(:isComponent)
+
+# Object Property: :isPortFor (:isPortFor)
+
+TransitiveObjectProperty(:isPortFor)
+
+# Object Property: :isRequiredComponent (:isRequiredComponent)
+
+AnnotationAssertion(rdfs:comment :isRequiredComponent "является обязадельным компонентом для")
+SubObjectPropertyOf(:isRequiredComponent :isComponent)
+
+
+############################
+#   Data Properties
+############################
+
+# Data Property: :цветной (:цветной)
+
+DataPropertyDomain(:цветной :laserPrinter)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: :BIOS (:BIOS)
+
+AnnotationAssertion(rdfs:comment :BIOS "Модуль BIOS - важнейшая микросхема постоянной или Flash-памяти . BIOS (Basic Input/Output System — базовая система ввода-вывода) — совокупность программ, предназначенных для: автоматического тестирования устройств после включения питания компьютера; загрузки операционной системы в оперативную память.")
+SubClassOf(:BIOS :chip)
+SubClassOf(:BIOS ObjectSomeValuesFrom(:isRequiredComponent :computer))
+
+# Class: :CD-ROM (:CD-ROM)
+
+SubClassOf(:CD-ROM :drivesOnOpticalDisks)
+
+# Class: :CMOSRAM (:CMOSRAM)
+
+AnnotationAssertion(rdfs:comment :CMOSRAM "CMOS RAM — это память с невысоким быстродействием и минимальным энергопотреблением от батарейки. Используется для хранения информации о конфигурации и составе оборудования компьютера, а также о режимах его работы. Содержимое CMOS изменяется специальной программой Setup, находящейся в BIOS")
+SubClassOf(:CMOSRAM :specialMemory)
+
+# Class: :DRAM (:DRAM)
+
+AnnotationAssertion(rdfs:comment :DRAM "Интегральные микросхемы памяти DRAM (Dynamic RAM — динамическое ОЗУ).")
+SubClassOf(:DRAM :chip)
+SubClassOf(:DRAM ObjectSomeValuesFrom(:interactsWith :motherboard))
+DisjointClasses(:DRAM :SRAM)
+
+# Class: :DVD (:DVD)
+
+SubClassOf(:DVD :drivesOnOpticalDisks)
+
+# Class: :DataBus (:DataBus)
+
+SubClassOf(:DataBus :DataBus)
+SubClassOf(:DataBus ObjectSomeValuesFrom(:interactsWith :controlDiagramBusAndPorts))
+SubClassOf(:DataBus ObjectSomeValuesFrom(:interactsWith :motherboard))
+
+# Class: :FlashMemory (:FlashMemory)
+
+AnnotationAssertion(rdfs:comment :FlashMemory "Перепрограммируемая постоянная память (Flash Memory) — энергонезависимая память, допускающая многократную перезапись своего содержимого с дискеты.")
+EquivalentClasses(:FlashMemory :reprogrammableFixedMemory)
+SubClassOf(:FlashMemory :specialMemory)
+
+# Class: :HD (:HD)
+
+SubClassOf(:HD :discHandler)
+DisjointClasses(:HD :HDD)
+
+# Class: :HDD (:HDD)
+
+AnnotationAssertion(rdfs:comment :HDD "Накопитель на жёстких магнитных дисках (англ. HDD — Hard Disk Drive), или винчестерский накопитель — это наиболее массовое запоминающее устройство большой ёмкости, в котором носителями информации являются круглые алюминиевые пластины — платтеры, обе поверхности которых покрыты слоем магнитного материала. Используется для постоянного хранения информации — программ и данных.")
+EquivalentClasses(:HDD :hardDrive)
+EquivalentClasses(:HDD :winchester)
+SubClassOf(:HDD :discHandler)
+
+# Class: :InformationTransformer (:InformationTransformer)
+
+SubClassOf(:InformationTransformer ObjectSomeValuesFrom(:interactsWith :motherboard))
+
+# Class: :LCD-monitor (:LCD-monitor)
+
+AnnotationAssertion(rdfs:comment :LCD-monitor "Жидкокристаллический монитор")
+SubClassOf(:LCD-monitor :monitor)
+DisjointClasses(:LCD-monitor :LED-monitor)
+
+# Class: :LED-monitor (:LED-monitor)
+
+AnnotationAssertion(rdfs:comment :LED-monitor "Монитор с электронно-лучевой трубкой")
+SubClassOf(:LED-monitor :monitor)
+
+# Class: :Memory-compact-disk (:Memory-compact-disk)
+
+SubClassOf(:Memory-compact-disk :drivesOnOpticalDisks)
+
+# Class: :MemoryDevices (:MemoryDevices)
+
+AnnotationAssertion(rdfs:comment :MemoryDevices "встроенныйБуфер")
+
+# Class: :OperationSystem (:OperationSystem)
+
+AnnotationAssertion(rdfs:comment :OperationSystem "Комплекс программ, обеспечивающий управление аппаратными средствами компьютера, организующий работу с файлами и выполнение прикладных программ, осуществляющий ввод и вывод данных.")
+SubClassOf(:OperationSystem ObjectSomeValuesFrom(:isRequiredComponent :computer))
+
+# Class: :PCI-bus (:PCI-bus)
+
+SubClassOf(:PCI-bus :localBus)
+DisjointClasses(:PCI-bus :VLB-bus)
+
+# Class: :SRAM (:SRAM)
+
+AnnotationAssertion(rdfs:comment :SRAM "Микросхемы статической памяти SRAM (Static RAM), более быстродействующих, дорогих и малоёмких, чем DRAM")
+SubClassOf(:SRAM :chip)
+SubClassOf(:SRAM ObjectSomeValuesFrom(:interactsWith :motherboard))
+
+# Class: :SSD (:SSD)
+
+SubClassOf(:SSD :specialMemory)
+
+# Class: :SoundSynthesizer (:SoundSynthesizer)
+
+SubClassOf(:SoundSynthesizer :devicesOfSpeechInputOfInformationOutput)
+
+# Class: :Strimer (:Strimer)
+
+AnnotationAssertion(rdfs:comment :Strimer "Стример (англ. tape streamer) — устройство для резервного копирования больших объёмов информации. В качестве носителя здесь применяются кассеты с магнитной лентой ёмкостью 1 – 2 Гбайта и больше. Стримеры позволяют записать на небольшую кассету с магнитной лентой огромное количество информации. Встроенные в стример средства аппаратного сжатия позволяют автоматически уплотнять информацию перед её записью и восстанавливать после считывания, что увеличивает объём сохраняемой информации.")
+SubClassOf(:Strimer :specialMemory)
+
+# Class: :TV-tuner (:TV-tuner)
+
+AnnotationAssertion(rdfs:comment :TV-tuner "TV-тюнеры — видеоплаты, превращающие компьютер в телевизор. TV-тюнер позволяет выбрать любую нужную телевизионную программу и отображать ее на экране в масштабируемом окне.")
+SubClassOf(:TV-tuner :videoadapter)
+
+# Class: :TelecommunicationOfCommunicationMeans (:TelecommunicationOfCommunicationMeans)
+
+SubClassOf(:TelecommunicationOfCommunicationMeans :peripheralEquipment)
+
+# Class: :USB-port (:USB-port)
+
+SubClassOf(:USB-port :electronicBoards)
+
+# Class: :VLB-bus (:VLB-bus)
+
+SubClassOf(:VLB-bus :localBus)
+
+# Class: :VRAM (:VRAM)
+
+AnnotationAssertion(rdfs:comment :VRAM "Видеопамять (VRAM) — разновидность оперативного ЗУ, в котором хранятся закодированные изображения. Это ЗУ организовано так, что его содержимое доступно сразу двум устройствам — процессору и дисплею. Поэтому изображение на экране меняется одновременно с обновлением видеоданных в памяти.")
+EquivalentClasses(:VRAM :videomemory)
+SubClassOf(:VRAM :specialMemory)
+
+# Class: :addressRegister (:addressRegister)
+
+SubClassOf(:addressRegister :register)
+
+# Class: :analog-digital (:analog-digital)
+
+AnnotationAssertion(rdfs:comment :analog-digital "аналого-цифровой преобразователь - преобразует непрерывные, то есть, аналоговые, звуковые сигналы (речь, музыку, шум) в цифровой двоичный код и записывает его на магнитный носитель")
+SubClassOf(:analog-digital :InformationTransformer)
+DisjointClasses(:analog-digital :digital-analog)
+
+# Class: :audioadapter (:audioadapter)
+
+AnnotationAssertion(rdfs:comment :audioadapter "Аудиоадаптер (Sound Blaster или звуковая плата) — это специальная электронная плата, которая позволяет записывать звук, воспроизводить его и создавать программными средствами с помощью микрофона, наушников, динамиков, встроенного синтезатора и другого оборудования.")
+SubClassOf(:audioadapter :electronicBoards)
+
+# Class: :built-inBuffer (:built-inBuffer)
+
+AnnotationAssertion(rdfs:comment :built-inBuffer "промежуточная память малого размера, куда помещаются введённые символы")
+SubClassOf(:built-inBuffer :MemoryDevices)
+
+# Class: :busesOfExtensions (:busesOfExtensions)
+
+SubClassOf(:busesOfExtensions :systemBus)
+
+# Class: :cache (:cache)
+
+AnnotationAssertion(rdfs:comment :cache "Кэш (англ. cache), или сверхоперативная память — очень быстрое ЗУ небольшого объёма, которое используется при обмене данными между микропроцессором и оперативной памятью для компенсации разницы в скорости обработки информации процессором и несколько менее быстродействующей оперативной памятью")
+SubClassOf(:cache :MemoryDevices)
+
+# Class: :codeAdressBus (:codeAdressBus)
+
+SubClassOf(:codeAdressBus :DataBus)
+SubClassOf(:codeAdressBus ObjectSomeValuesFrom(:interactsWith :controlDiagramBusAndPorts))
+
+# Class: :codeDataBus (:codeDataBus)
+
+SubClassOf(:codeDataBus :DataBus)
+SubClassOf(:codeDataBus ObjectSomeValuesFrom(:interactsWith :controlDiagramBusAndPorts))
+
+# Class: :codeInstructionBus (:codeInstructionBus)
+
+SubClassOf(:codeInstructionBus :DataBus)
+SubClassOf(:codeInstructionBus ObjectSomeValuesFrom(:interactsWith :controlDiagramBusAndPorts))
+
+# Class: :computer (:computer)
+
+AnnotationAssertion(rdfs:comment :computer "Настольная микро-ЭВМ, имеющая эксплуатационные характеристики бытового прибора и универсальные функциональные возможности.")
+SubClassOf(:computer ObjectSomeValuesFrom(:hasRequiredComponent :monitor))
+SubClassOf(:computer ObjectSomeValuesFrom(:hasRequiredComponent :randomAccessMemory))
+SubClassOf(:computer ObjectSomeValuesFrom(:hasRequiredComponent :refrigerationSystem))
+SubClassOf(:computer ObjectSomeValuesFrom(:hasRequiredComponent :specialMemory))
+SubClassOf(:computer ObjectSomeValuesFrom(:hasRequiredComponent :videoadapter))
+SubClassOf(:computer ObjectExactCardinality(1 :hasRequiredComponent :BIOS))
+SubClassOf(:computer ObjectExactCardinality(1 :hasRequiredComponent :OperationSystem))
+SubClassOf(:computer ObjectExactCardinality(1 :hasRequiredComponent :keypad))
+SubClassOf(:computer ObjectExactCardinality(1 :hasRequiredComponent :motherboard))
+SubClassOf(:computer ObjectExactCardinality(1 :hasRequiredComponent :powersupplyunit))
+SubClassOf(:computer ObjectExactCardinality(1 :hasRequiredComponent :processor))
+
+# Class: :controlCircuit (:controlCircuit)
+
+SubClassOf(:controlCircuit ObjectSomeValuesFrom(:interactsWith :motherboard))
+
+# Class: :controlDevice (:controlDevice)
+
+AnnotationAssertion(rdfs:comment :controlDevice "Устройство управления (УУ) — формирует и подает во все блоки машины в нужные моменты времени определенные сигналы управления (управляющие импульсы), обусловленные спецификой выполняемой операции и результатами предыдущих операций; формирует адреса ячеек памяти, используемых выполняемой операцией, и передает эти адреса в соответствующие блоки ЭВМ; опорную последовательность импульсов устройство управления получает от генератора тактовых импульсов;")
+SubClassOf(:controlDevice ObjectSomeValuesFrom(:interactsWith :motherboard))
+
+# Class: :controlDiagramBusAndPorts (:controlDiagramBusAndPorts)
+
+SubClassOf(:controlDiagramBusAndPorts :controlCircuit)
+
+# Class: :cooler (:cooler)
+
+SubClassOf(:cooler :refrigerationSystem)
+DisjointClasses(:cooler :waterCooling)
+
+# Class: :dataInputDevice (:dataInputDevice)
+
+SubClassOf(:dataInputDevice :peripheralEquipment)
+SubClassOf(:dataInputDevice ObjectSomeValuesFrom(:interactsWith :USB-port))
+
+# Class: :dataOutputDevice (:dataOutputDevice)
+
+SubClassOf(:dataOutputDevice :peripheralEquipment)
+
+# Class: :devicesOfSpeechInputOfInformationOutput (:devicesOfSpeechInputOfInformationOutput)
+
+SubClassOf(:devicesOfSpeechInputOfInformationOutput :dataInputDevice)
+SubClassOf(:devicesOfSpeechInputOfInformationOutput ObjectSomeValuesFrom(:interactsWith :USB-port))
+SubClassOf(:devicesOfSpeechInputOfInformationOutput ObjectSomeValuesFrom(:interactsWith :audioadapter))
+
+# Class: :digital-analog (:digital-analog)
+
+AnnotationAssertion(rdfs:comment :digital-analog "цифро-аналоговый преобразователь - выполняет обратное преобразование сохранённого в цифровом виде звука в аналоговый сигнал, который затем воспроизводится с помощью акустической системы, синтезатора звука или наушников")
+SubClassOf(:digital-analog :InformationTransformer)
+
+# Class: :discHandler (:discHandler)
+
+SubClassOf(:discHandler :peripheralMemory)
+
+# Class: :drivers (:drivers)
+
+AnnotationAssertion(rdfs:comment :drivers "Драйвер (англ. driver) — компьютерное программное обеспечение, с помощью которого другое программное обеспечение (операционная система) получает доступ к аппаратному обеспечению некоторого устройства")
+SubClassOf(:drivers ObjectSomeValuesFrom(:interactsWith :OperationSystem))
+
+# Class: :drivesOnOpticalDisks (:drivesOnOpticalDisks)
+
+SubClassOf(:drivesOnOpticalDisks :peripheralMemory)
+
+# Class: :electronicBoards (:electronicBoards)
+
+SubClassOf(:electronicBoards ObjectSomeValuesFrom(:interactsWith :motherboard))
+
+# Class: :electrostaticPlotter (:electrostaticPlotter)
+
+SubClassOf(:electrostaticPlotter :rasterPlotter)
+
+# Class: :frameGrubber (:frameGrubber)
+
+AnnotationAssertion(rdfs:comment :frameGrubber "Фрейм-грабберы позволяют отображать на экране компьютера видеосигнал от видеомагнитофона, камеры, лазерного проигрывателя и т. п., с тем, чтобы захватить нужный кадр в память и впоследствии сохранить его в виде файла.")
+SubClassOf(:frameGrubber :videoadapter)
+
+# Class: :generalPurposeRegister (:generalPurposeRegister)
+
+SubClassOf(:generalPurposeRegister :registersOfMicroprocessor)
+DisjointClasses(:generalPurposeRegister :specialRegister)
+
+# Class: :graphicsAccelerator (:graphicsAccelerator)
+
+AnnotationAssertion(rdfs:comment :graphicsAccelerator "Графические акселераторы (ускорители) — специализированные графические сопроцессоры, увеличивающие эффективность видеосистемы.")
+SubClassOf(:graphicsAccelerator :videoadapter)
+
+# Class: :graphicsPad (:graphicsPad)
+
+SubClassOf(:graphicsPad :dataInputDevice)
+
+# Class: :hardDrive (:hardDrive)
+
+EquivalentClasses(:hardDrive :winchester)
+SubClassOf(:hardDrive :specialMemory)
+
+# Class: :instructionRegister (:instructionRegister)
+
+SubClassOf(:instructionRegister :register)
+
+# Class: :interfaceBus (:interfaceBus)
+
+SubClassOf(:interfaceBus :DataBus)
+SubClassOf(:interfaceBus ObjectSomeValuesFrom(:interactsWith :controlDiagramBusAndPorts))
+
+# Class: :jetPlotter (:jetPlotter)
+
+SubClassOf(:jetPlotter :rasterPlotter)
+
+# Class: :jetPrinter (:jetPrinter)
+
+SubClassOf(:jetPrinter :printer)
+
+# Class: :joystick (:joystick)
+
+SubClassOf(:joystick :specifyingDevices)
+
+# Class: :keypad (:keypad)
+
+AnnotationAssertion(rdfs:comment :keypad "Клавиатура служит для ввода информации в компьютер и подачи управляющих сигналов. Она содержит стандартный набор алфавитно-цифровых клавиш и некоторые дополнительные клавиши — управляющие и функциональные, клавиши управления курсором, а также малую цифровую клавиатуру.")
+SubClassOf(:keypad :dataInputDevice)
+
+# Class: :laserPlotter (:laserPlotter)
+
+SubClassOf(:laserPlotter :rasterPlotter)
+
+# Class: :laserPrinter (:laserPrinter)
+
+SubClassOf(:laserPrinter :printer)
+
+# Class: :lightPen (:lightPen)
+
+SubClassOf(:lightPen :specifyingDevices)
+
+# Class: :localBus (:localBus)
+
+SubClassOf(:localBus :systemBus)
+SubClassOf(:localBus ObjectSomeValuesFrom(:interactsWith :controlDiagramBusAndPorts))
+
+# Class: :matrixPrinter (:matrixPrinter)
+
+SubClassOf(:matrixPrinter :printer)
+
+# Class: :microcontroller (:microcontroller)
+
+AnnotationAssertion(rdfs:comment :microcontroller "Микроконтроллер - местное устройство управления")
+SubClassOf(:microcontroller :controller)
+
+# Class: :microphone (:microphone)
+
+SubClassOf(:microphone :devicesOfSpeechInputOfInformationOutput)
+
+# Class: :monitor (:monitor)
+
+AnnotationAssertion(rdfs:comment :monitor "Монитор — устройство визуального отображения информации (в виде текста, таблиц, рисунков, чертежей и др.).")
+SubClassOf(:monitor :dataOutputDevice)
+SubClassOf(:monitor ObjectSomeValuesFrom(:interactsWith :videoadapter))
+SubClassOf(:monitor ObjectSomeValuesFrom(:isRequiredComponent :computer))
+
+# Class: :motherboard (:motherboard)
+
+AnnotationAssertion(rdfs:comment :motherboard "Печатная плата, являющаяся основой построения модульного устройства, например — компьютера.")
+SubClassOf(:motherboard ObjectSomeValuesFrom(:isRequiredComponent :computer))
+
+# Class: :mouse (:mouse)
+
+SubClassOf(:mouse :specifyingDevices)
+SubClassOf(:mouse ObjectSomeValuesFrom(:isRequiredComponent :computer))
+
+# Class: :multimediaMeans (:multimediaMeans)
+
+SubClassOf(:multimediaMeans :peripheralEquipment)
+
+# Class: :peripheralEquipment (:peripheralEquipment)
+
+SubClassOf(:peripheralEquipment ObjectSomeValuesFrom(:interactsWith :cache))
+
+# Class: :peripheralMemory (:peripheralMemory)
+
+SubClassOf(:peripheralMemory :peripheralEquipment)
+
+# Class: :plotter (:plotter)
+
+SubClassOf(:plotter :dataOutputDevice)
+SubClassOf(:plotter ObjectSomeValuesFrom(:interactsWith :USB-port))
+SubClassOf(:plotter ObjectSomeValuesFrom(:interactsWith :cache))
+
+# Class: :powerbus (:powerbus)
+
+SubClassOf(:powerbus :DataBus)
+
+# Class: :powersupplyunit (:powersupplyunit)
+
+EquivalentClasses(:powersupplyunit ObjectSomeValuesFrom(owl:topObjectProperty :computer))
+
+# Class: :printer (:printer)
+
+SubClassOf(:printer :dataOutputDevice)
+SubClassOf(:printer ObjectSomeValuesFrom(:interactsWith :USB-port))
+SubClassOf(:printer ObjectSomeValuesFrom(:interactsWith :cache))
+SubClassOf(:printer ObjectSomeValuesFrom(:interactsWith :drivers))
+
+# Class: :processor (:processor)
+
+AnnotationAssertion(rdfs:comment :processor "Микропроцессор (МП) — это центральный блок ПК, предназначенный для управления работой всех блоков машины и для выполнения арифметических и логических операций над информацией.")
+SubClassOf(:processor ObjectSomeValuesFrom(:interactsWith :motherboard))
+SubClassOf(:processor ObjectSomeValuesFrom(:isRequiredComponent :computer))
+
+# Class: :randomAccessMemory (:randomAccessMemory)
+
+AnnotationAssertion(rdfs:comment :randomAccessMemory "Оперативная память (ОЗУ, англ. RAM, Random Access Memory — память с произвольным доступом) — это быстрое запоминающее устройство не очень большого объёма, непосредственно связанное с процессором и предназначенное для записи, считывания и хранения выполняемых программ и данных, обрабатываемых этими программами.")
+SubClassOf(:randomAccessMemory :MemoryDevices)
+SubClassOf(:randomAccessMemory ObjectSomeValuesFrom(:isRequiredComponent :computer))
+DisjointClasses(:randomAccessMemory :read-onlyMemory)
+
+# Class: :randomAccessMemoryDIMM (:randomAccessMemoryDIMM)
+
+SubClassOf(:randomAccessMemoryDIMM :randomAccessMemory)
+DisjointClasses(:randomAccessMemoryDIMM :randomAccessMemorySO-DIMM)
+
+# Class: :randomAccessMemorySO-DIMM (:randomAccessMemorySO-DIMM)
+
+SubClassOf(:randomAccessMemorySO-DIMM :randomAccessMemory)
+
+# Class: :rasterPlotter (:rasterPlotter)
+
+SubClassOf(:rasterPlotter :plotter)
+DisjointClasses(:rasterPlotter :vectorPlotter)
+
+# Class: :read-onlyMemory (:read-onlyMemory)
+
+AnnotationAssertion(rdfs:comment :read-onlyMemory "Постоянная память (ПЗУ, англ. ROM, Read Only Memory — память только для чтения) — энергонезависимая память, используется для хранения данных, которые никогда не потребуют изменения. Содержание памяти специальным образом “зашивается” в устройстве при его изготовлении для постоянного хранения. Из ПЗУ можно только читать.")
+SubClassOf(:read-onlyMemory :specialMemory)
+
+# Class: :refrigerationSystem (:refrigerationSystem)
+
+AnnotationAssertion(rdfs:comment :refrigerationSystem "Набор средств для отвода тепла от нагревающихся в процессе работы компьютерных компонентов.")
+SubClassOf(:refrigerationSystem ObjectSomeValuesFrom(:interactsWith :motherboard))
+SubClassOf(:refrigerationSystem ObjectSomeValuesFrom(:interactsWith :processor))
+SubClassOf(:refrigerationSystem ObjectSomeValuesFrom(:isRequiredComponent :computer))
+
+# Class: :registersOfMicroprocessor (:registersOfMicroprocessor)
+
+SubClassOf(:registersOfMicroprocessor :register)
+
+# Class: :reprogrammableFixedMemory (:reprogrammableFixedMemory)
+
+AnnotationAssertion(rdfs:comment :reprogrammableFixedMemory "Перепрограммируемая постоянная память (Flash Memory) — энергонезависимая память, допускающая многократную перезапись своего содержимого с дискеты.")
+SubClassOf(:reprogrammableFixedMemory :specialMemory)
+
+# Class: :scaner (:scaner)
+
+SubClassOf(:scaner :dataInputDevice)
+
+# Class: :specialMemory (:specialMemory)
+
+SubClassOf(:specialMemory :MemoryDevices)
+SubClassOf(:specialMemory ObjectSomeValuesFrom(:isRequiredComponent :computer))
+
+# Class: :specialRegister (:specialRegister)
+
+SubClassOf(:specialRegister :registersOfMicroprocessor)
+
+# Class: :specifyingDevices (:specifyingDevices)
+
+SubClassOf(:specifyingDevices :dataInputDevice)
+SubClassOf(:specifyingDevices ObjectSomeValuesFrom(:interactsWith :USB-port))
+
+# Class: :systemBus (:systemBus)
+
+SubClassOf(:systemBus :DataBus)
+SubClassOf(:systemBus ObjectSomeValuesFrom(:interactsWith :controlDiagramBusAndPorts))
+
+# Class: :thermalPlotter (:thermalPlotter)
+
+SubClassOf(:thermalPlotter :rasterPlotter)
+
+# Class: :toneSystem (:toneSystem)
+
+SubClassOf(:toneSystem :devicesOfSpeechInputOfInformationOutput)
+
+# Class: :touchScreen (:touchScreen)
+
+AnnotationAssertion(rdfs:comment :touchScreen "Сенсорный экран -разновидность монитора. Здесь общение с компьютером осуществляется путём прикосновения пальцем к определённому месту чувствительного экрана.")
+SubClassOf(:touchScreen :dataInputDevice)
+
+# Class: :vectorPlotter (:vectorPlotter)
+
+SubClassOf(:vectorPlotter :plotter)
+
+# Class: :videoadapter (:videoadapter)
+
+AnnotationAssertion(rdfs:comment :videoadapter "Видеоадаптер - это электронная плата, которая обрабатывает видеоданные (текст и графику) и управляет работой дисплея. Содержит видеопамять, регистры ввода вывода и модуль BIOS.")
+EquivalentClasses(:videoadapter :videocard)
+SubClassOf(:videoadapter :electronicBoards)
+SubClassOf(:videoadapter ObjectSomeValuesFrom(:isRequiredComponent :computer))
+
+# Class: :videocard (:videocard)
+
+AnnotationAssertion(rdfs:comment :videocard "Видеоадаптер - это электронная плата, которая обрабатывает видеоданные (текст и графику) и управляет работой дисплея. Содержит видеопамять, регистры ввода вывода и модуль BIOS.")
+SubClassOf(:videocard :electronicBoards)
+SubClassOf(:videocard ObjectSomeValuesFrom(:isRequiredComponent :computer))
+
+# Class: :videomemory (:videomemory)
+
+AnnotationAssertion(rdfs:comment :videomemory "Видеопамять (VRAM) — разновидность оперативного ЗУ, в котором хранятся закодированные изображения. Это ЗУ организовано так, что его содержимое доступно сразу двум устройствам — процессору и дисплею. Поэтому изображение на экране меняется одновременно с обновлением видеоданных в памяти.")
+SubClassOf(:videomemory :specialMemory)
+
+# Class: :waterCooling (:waterCooling)
+
+SubClassOf(:waterCooling :refrigerationSystem)
+
+# Class: :winchester (:winchester)
+
+AnnotationAssertion(rdfs:comment :winchester "Накопитель на жёстких магнитных дисках (англ. HDD — Hard Disk Drive), или винчестерский накопитель — это наиболее массовое запоминающее устройство большой ёмкости, в котором носителями информации являются круглые алюминиевые пластины — платтеры, обе поверхности которых покрыты слоем магнитного материала. Используется для постоянного хранения информации — программ и данных.")
+SubClassOf(:winchester :specialMemory)
+
+
+############################
+#   Named Individuals
+############################
+
+# Individual: :AMD_A4-5300_OEM (:AMD_A4-5300_OEM)
+
+ClassAssertion(:processor :AMD_A4-5300_OEM)
+
+# Individual: :AMD_A8-7650K_OEM (:AMD_A8-7650K_OEM)
+
+ClassAssertion(:processor :AMD_A8-7650K_OEM)
+
+# Individual: :BrotherHL-1112R (:BrotherHL-1112R)
+
+ClassAssertion(:laserPrinter :BrotherHL-1112R)
+DataPropertyAssertion(:скоростьПечати :BrotherHL-1112R "20"^^xsd:integer)
+DataPropertyAssertion(:цветной :BrotherHL-1112R "false"^^xsd:boolean)
+
+# Individual: :Corsair_H45 (:Corsair_H45)
+
+ClassAssertion(:waterCooling :Corsair_H45)
+
+# Individual: :Crown_CM-80 (:Crown_CM-80)
+
+ClassAssertion(:cooler :Crown_CM-80)
+
+# Individual: :Deepcool_CAPTAIN_240EX (:Deepcool_CAPTAIN_240EX)
+
+ClassAssertion(:waterCooling :Deepcool_CAPTAIN_240EX)
+
+# Individual: :Deepcool_CAPTAIN_240EX_RGB (:Deepcool_CAPTAIN_240EX_RGB)
+
+ClassAssertion(:waterCooling :Deepcool_CAPTAIN_240EX_RGB)
+
+# Individual: :Deepcool_MAELSTROM_240T (:Deepcool_MAELSTROM_240T)
+
+ClassAssertion(:waterCooling :Deepcool_MAELSTROM_240T)
+
+# Individual: :HPColorLaserJetProM176nCF547A (:HPColorLaserJetProM176nCF547A)
+
+ClassAssertion(:laserPrinter :HPColorLaserJetProM176nCF547A)
+
+# Individual: :HPLaserJetProM201n (:HPLaserJetProM201n)
+
+ClassAssertion(:laserPrinter :HPLaserJetProM201n)
+DataPropertyAssertion(:скоростьПечати :HPLaserJetProM201n "26"^^xsd:integer)
+
+# Individual: :Intel_Celeron_G3930_BOX (:Intel_Celeron_G3930_BOX)
+
+ClassAssertion(:processor :Intel_Celeron_G3930_BOX)
+
+# Individual: :Intel_Celeron_G4900_BOX (:Intel_Celeron_G4900_BOX)
+
+ClassAssertion(:processor :Intel_Celeron_G4900_BOX)
+
+# Individual: :Intel_Pentium_G4560_BOX (:Intel_Pentium_G4560_BOX)
+
+ClassAssertion(:processor :Intel_Pentium_G4560_BOX)
+
+# Individual: :Intel_Pentium_Gold_G5500_OEM (:Intel_Pentium_Gold_G5500_OEM)
+
+ClassAssertion(:processor :Intel_Pentium_Gold_G5500_OEM)
+
+# Individual: :Mac_OS (:Mac_OS)
+
+ClassAssertion(:OperationSystem :Mac_OS)
+
+# Individual: :Microsoft_Windows_10 (:Microsoft_Windows_10)
+
+ClassAssertion(:OperationSystem :Microsoft_Windows_10)
+
+# Individual: :Microsoft_Windows_7 (:Microsoft_Windows_7)
+
+ClassAssertion(:OperationSystem :Microsoft_Windows_7)
+
+# Individual: :Microsoft_Windows_Vista (:Microsoft_Windows_Vista)
+
+ClassAssertion(:OperationSystem :Microsoft_Windows_Vista)
+
+# Individual: :PantumP2207 (:PantumP2207)
+
+ClassAssertion(:laserPrinter :PantumP2207)
+
+# Individual: :Xilence_A200 (:Xilence_A200)
+
+ClassAssertion(:cooler :Xilence_A200)
+
+# Individual: :Xilence_A250_PWM (:Xilence_A250_PWM)
+
+ClassAssertion(:cooler :Xilence_A250_PWM)
+
+# Individual: :Zalman_CNPS80F (:Zalman_CNPS80F)
+
+ClassAssertion(:cooler :Zalman_CNPS80F)
+
+# Individual: :Zalman_CNPS90F (:Zalman_CNPS90F)
+
+ClassAssertion(:cooler :Zalman_CNPS90F)
+
+# Individual: :_4ГБ (:_4ГБ)
+
+ClassAssertion(:randomAccessMemorySO-DIMM :_4ГБ)
+
+# Individual: : (:)
+
+ClassAssertion(:powersupplyunit <http://www.semanticweb.org/ася/ontologies/2017/4/untitled-ontology-6#Hipro350W[HPE-350W]>)
+
+# Individual: <http://www.semanticweb.org/ася/ontologies/2017/4/untitled-ontology-6#SODIMM_AMD_Radeon_R5_Entertainment_Series[R534G1601S1S-UO/UGO]_4ГБ> (<http://www.semanticweb.org/ася/ontologies/2017/4/untitled-ontology-6#SODIMM_AMD_Radeon_R5_Entertainment_Series[R534G1601S1S-UO/UGO]_4ГБ>)
+
+ClassAssertion(:randomAccessMemorySO-DIMM <http://www.semanticweb.org/ася/ontologies/2017/4/untitled-ontology-6#SODIMM_AMD_Radeon_R5_Entertainment_Series[R534G1601S1S-UO/UGO]_4ГБ>)
+
+# Individual: <http://www.semanticweb.org/ася/ontologies/2017/4/untitled-ontology-6#SODIMM_Goodram_[GR800S264L6/2G]_2ГБ> (<http://www.semanticweb.org/ася/ontologies/2017/4/untitled-ontology-6#SODIMM_Goodram_[GR800S264L6/2G]_2ГБ>)
+
+ClassAssertion(:randomAccessMemorySO-DIMM <http://www.semanticweb.org/ася/ontologies/2017/4/untitled-ontology-6#SODIMM_Goodram_[GR800S264L6/2G]_2ГБ>)
+
+# Individual: : (:)
+
+ClassAssertion(:powersupplyunit <http://www.semanticweb.org/ася/ontologies/2017/4/untitled-ontology-6#STM300W[STM-30SFX]>)
+
+# Individual: : (:)
+
+ClassAssertion(:powersupplyunit <http://www.semanticweb.org/ася/ontologies/2017/4/untitled-ontology-6#STM500W[STM-50SHB]>)
+
+
+DisjointClasses(:CD-ROM :DVD :Memory-compact-disk)
+DisjointClasses(:DataBus :busesOfExtensions :codeAdressBus :codeDataBus :codeInstructionBus :powerbus :systemBus)
+DisjointClasses(:TV-tuner :frameGrubber :graphicsAccelerator)
+DisjointClasses(:codeAdressBus :codeDataBus :codeInstructionBus :powerbus)
+DisjointClasses(:devicesOfSpeechInputOfInformationOutput :monitor :printer)
+DisjointClasses(:electrostaticPlotter :jetPlotter :laserPlotter :thermalPlotter)
+DisjointClasses(:graphicsPad :keypad :scaner :specifyingDevices :touchScreen)
+DisjointClasses(:joystick :lightPen :mouse)
+)
